@@ -295,7 +295,7 @@ export default function InvitationContent() {
           className="text-xs tracking-widest uppercase"
           style={{ color: "#6B8EBF", opacity: 0.6 }}
         >
-          Con amor · Familia Nicole
+          Con amor · Familia Romero Mendoza
         </p>
       </motion.div>
     </div>
