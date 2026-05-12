@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const WHATSAPP_NUMBER = "526567446325"; // ← Reemplaza con el número real
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  "¡Hola! Confirmo mi asistencia a la celebración de Sheila Nicole el 30 de mayo. 🎉"
+  "¡Hola! Confirmo mi asistencia a la celebración de Sheila Nicole el 13 de junio. 🎉"
 );
 const MAPS_URL =
   "https://maps.app.goo.gl/17qZjJqiJF1V36pD8";
