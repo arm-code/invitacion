@@ -30,7 +30,7 @@ export default function VideoScreen({ onEnded, onSkip }: Props) {
     >
       <video
         ref={videoRef}
-        src="./video_invitacion.mp4"
+        src="/video.mp4"
         className="w-full h-full object-cover"
         playsInline
         onEnded={onEnded}

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const WHATSAPP_NUMBER = "526561234567"; // ← Reemplaza con el número real
+const WHATSAPP_NUMBER = "526567446325"; // ← Reemplaza con el número real
 const WHATSAPP_MESSAGE = encodeURIComponent(
   "¡Hola! Confirmo mi asistencia a la celebración de Sheila Nicole el 30 de mayo. 🎉"
 );
@@ -45,7 +45,7 @@ export default function InvitationContent() {
           className="tracking-[0.3em] uppercase text-xs mb-4"
           style={{ color: "#6B8EBF" }}
         >
-          Te invitamos a celebrar
+          Te invitamos a celebrar los XV años de
         </motion.p>
 
         <motion.h1
@@ -115,22 +115,22 @@ export default function InvitationContent() {
             <DetailRow
               icon={<CalendarIcon />}
               label="Fecha"
-              value="Viernes 30 de Mayo"
-              sub="2025"
+              value="Sábado 13 de Junio"
+              sub="2026"
             />
             {/* Hora */}
             <DetailRow
               icon={<ClockIcon />}
               label="Hora"
-              value="20:00 hrs"
+              value="19:00-02:00 hrs"
               sub="Puntualmente"
             />
             {/* Lugar */}
             <DetailRow
               icon={<PinIcon />}
               label="Lugar"
-              value="Rivera de Buenaventura"
-              sub="Calle Rivera de Buenaventura 2255"
+              value="Terraza mi sueño #3"
+              sub="Ejido Jesús Carranza 1135"
             />
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function InvitationContent() {
           Código de vestimenta
         </p>
         <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.4rem", color: "#2B5292", fontWeight: 300 }}>
-          Formal · Elegante
+          Informal
         </p>
       </motion.section>
 
@@ -175,7 +175,7 @@ export default function InvitationContent() {
         >
           <div>
             <p className="font-medium text-base" style={{ color: "#F9F7F2", fontFamily: "'Cormorant Garamond', serif", fontSize: "1.15rem" }}>
-              Rivera de Buenaventura 2255
+              Ejido Jesús Carranza 1135
             </p>
             <p className="text-sm mt-0.5" style={{ color: "#A5C4E7" }}>
               Toca para abrir en Google Maps
@@ -200,7 +200,7 @@ export default function InvitationContent() {
       >
         <SectionLabel>Confirmar Asistencia</SectionLabel>
         <p className="text-center text-sm mb-5" style={{ color: "#6B8EBF", fontFamily: "'Cormorant Garamond', serif", fontSize: "1rem", fontStyle: "italic" }}>
-          Por favor confirma antes del 25 de mayo
+          Tu presencia es el mejor regalo, pero si deseas obsequiar algo, un pequeño presente será muy apreciado.
         </p>
         <a
           href={`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`}
