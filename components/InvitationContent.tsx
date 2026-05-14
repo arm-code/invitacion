@@ -204,7 +204,7 @@ export default function InvitationContent() {
           Código de vestimenta
         </p>
         <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.4rem", color: "#2B5292", fontWeight: 300 }}>
-          Informal
+          Semiformal
         </p>
       </motion.section>
 
